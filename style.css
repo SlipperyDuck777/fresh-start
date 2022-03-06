@@ -1,0 +1,102 @@
+/*
+The following can be customized to change the theme of the startpage entirely, this is only recommended for users with a sufficent understanding of CSS.
+*/
+html, body {
+  height:100%;
+}
+
+body {
+  background: #192b2a;
+  margin: 0;
+}
+
+* {
+  scrollbar-width: 7px;
+  scrollbar-color: #bfd4d3 #2d3836;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2d3836;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfd4d3;
+  border-radius: 20px;
+  border: 1px solid #bfd4d3;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f9f8;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  color: #e6ebe9;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.centeralign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #2d3836;
+  border: solid #bfd4d3;
+  box-shadow: 10px 10px #bbd9d8, 20px 20px #72afb1, 30px 30px #15a1a1, 40px 40px #3a8684, 50px 50px #153d3b;
+}
+
+.image {
+  display: block;
+  float: left;
+  margin-right: 25px;
+}
+
+.header {
+  float: right;
+  margin-right: 100px;
+}
+
+.title {
+  color: #f4f9f8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.bookmarks {
+  color: #f4f9f8;
+  font-family: 'Raleway', sans-serif;
+}
+
+.list {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.listcontent {
+  list-style: none;
+  padding-left:0;
+}
+
+.listheader {
+  color: #6aa6a6;
+  margin: 0px;
+}
+
+.music {
+ background-color: black;
+}
+
+audio {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

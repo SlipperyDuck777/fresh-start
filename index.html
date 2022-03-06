@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title> <!-- Sets the title of the tab -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png">
+  </head>
+  <body>
+
+     <!--
+
+      Created with hevy influence from PrettyCoffee's "Yet another generic startpage", which can be found at https://github.com/PrettyCoffee/yet-another-generic-startpage.
+      This project was an attempt to make my own startpage roughly based off his startpage which I used for several weeks but did not feel the style fit my liking.
+      This project is made in a similar style while providing unique changes I felt would be more adapted to my needs (such as the clock).
+      The original project was made to showcase his react library, "startpage", which was made with TypeScript. This project was not made with his library as it was not a recreation but a project with influence. However his library is very useful and can be found at https://github.com/PrettyCoffee/startpage.
+      The art used in the startpage was made by Motocross Saito, a digital artist of pixelated GIF animations who's drawings attemp to “express a feeling that can soothe your mind, create a calming effect". His work can be found at https://motocross-arts.tumblr.com/ or on Instagram at https://www.instagram.com/moot_sai/.
+      The music used in this porject is "Reflections" by Toshifumi Hinata. It is a Contemporary Classical piece released in 1986. His work can be found at https://open.spotify.com/artist/08tfDO4dSrwxax35a3HIMC.
+
+     -->
+
+    <div class="fullheight centeralign">
+
+      <div class="container">
+
+        <div class="image">
+           <!-- GIF can be changed to whatever you like -->
+          <img title="Image by Motocross Saito, June 19th 2020" src="./assets/saito.gif" alt="Image by Motocross Saito, June 19th 2020"> <!-- Image by Motocross Saito, June 19th 2020 -->
+
+        </div>
+        <div class="header">
+
+          <div class="title">
+             <!-- Header text, can be changed. <span> element gets the system time and places inline in the header. -->
+            <h1>Welcome, it's <span id="time"></span> right now.</h1>
+
+          </div>
+
+        </div>
+
+        <div class="bookmarks">
+           <!-- Feel free to add whatever bookmarks you may need, this is just my preset, the headers for each section are the <h3> elements and the links are the <a> elements where href is the link and the content before the closing tag is the text. You can also add icons if you are an experienced HTML user, simply find an image library like fontawesome or bootstrap icons. -->
+          <div class="list">
+
+            <h3 class="listheader">General</h3>
+            <ul class="listcontent">
+              <li>
+                <a href="https://youtube.com/">YouTube</a>
+              </li>
+              <li>
+                <a href="https://store.steampowered.com/">Steam</a>
+              </li>
+              <li>
+                <a href="https://outlook.live.com/mail/0/">Outlook</a>
+              </li>
+              <li>
+                <a href="https://google.ca/maps/">Maps</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <h3 class="listheader">Media</h3>
+            <ul class="listcontent">
+              <li>
+                <a href="https://www.netflix.com/browse">Netflix</a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/">Spotify</a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/">Twitch</a>
+              </li>
+              <li>
+                <a href="https://www.nba.com/?2">NBA</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <h3 class="listheader">Social</h3>
+            <ul class="listcontent">
+              <li>
+                <a href="https://instagram.com/">Instagram</a>
+              </li>
+              <li>
+                <a href="https://reddit.com/">Reddit</a>
+              </li>
+              <li>
+                <a href="https://discord.com/app/">Discord</a>
+              </li>
+              <li>
+                <a href="https://hangouts.google.com/">Hangouts</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <h3 class="listheader">Coding</h3>
+            <ul class="listcontent">
+              <li>
+                <a href="https://github.com/">Github</a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/">Overflow</a>
+              </li>
+              <li>
+                <a href="https://codepen.io/">Codepen</a>
+              </li>
+              <li>
+                <a href="https://devdocs.io/">Devdocs</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <h3 class="listheader">Tools</h3>
+            <ul class="listcontent">
+              <li>
+                <a href="https://docs.google.com/document/">Docs</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/spreadsheets/">Sheets</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/presentation/">Slides</a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/">Drive</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Music which plays automatically, or in the event of a left click in Chromnium based browsers, the music can be changed by setting src to the file you would like or the feature can be removed altogether. -->
+    <div class="music">
+      <audio controls loop="loop" autoplay id="music">
+
+      <source src="./assets/Reflections.mp3" type="audio/mp3">
+
+      Your browser does not support the audio element.
+
+      </audio>
+    </div>
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+</html>
