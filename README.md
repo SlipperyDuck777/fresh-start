@@ -15,8 +15,8 @@ git clone  https://github.com/SlipperyDuck777/fresh-start.git
 ## Usage
 
 1. Download extension that redirects your new tab ([Chrome](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/))
-2. Set the path of `index.html` where you chose to download the repository into the URL field of the extension settings.
-3. If properly configured, you should see Fresh Start every time you open a new tab. If the browser does not display Fresh Start you must tweak your browsers settings to display the previously specified path when opening a new instance.
+2. Set the path of `index.html` where you chose to download the repository into the URL field of the extension settings. Alternatively you can set the URL field to the following if you would not like to host the files from your computer: https://slipperyduck777.github.io/fresh-start/. Unfortunately you need to host the files locally to save your customizations, as the feature to do so is a work in progress and is not expected to be implemented in the near future.
+4. If properly configured, you should see Fresh Start every time you open a new tab. If the browser does not display Fresh Start you must tweak your browsers settings to display the previously specified path when opening a new instance.
 ## Contributing
 Pull requests and forks are welcome. Feel free to contribute to the project in any way possible as I will not be frequently updating this repository, although I do have several ideas I am experimenting with already.
 
